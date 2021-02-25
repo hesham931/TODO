@@ -193,17 +193,17 @@ img[alt="icon"],#deleteIcon,#crossIcon{
 }
 @media screen and (max-width:991px){
    .header{
-      height:900px
+      height:1200px
    }
    .inputBar {
-      width: 500px;
-      height: 70px;
+      width: 700px;
+      height: 150px;
   }
   #inputBar {
    width: 300px;
-   height: 70px
+   height: 150px
   }
   .list{
-   width: 500px
+   width: 700px
 }
 }
