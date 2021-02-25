@@ -207,6 +207,7 @@ img[alt="icon"],#deleteIcon,#crossIcon{
   }
   .list{
    width: 700px;
+      top:-150px;
   }
     .list > div {
         font-size:40px;
@@ -223,6 +224,6 @@ img[alt="icon"],#deleteIcon,#crossIcon{
    font-size: 40px;
 }
     .text{
-        font-size:30px
+        font-size:40px
     }
 }
