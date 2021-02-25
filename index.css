@@ -198,21 +198,22 @@ img[alt="icon"],#deleteIcon,#crossIcon{
    .inputBar {
       width: 700px;
       height: 100px;
+       margin-top:200px;
   }
   #inputBar {
    width: 600px;
    height: 100px;
-      font-size:30px;
+      font-size:50px;
   }
   .list{
    width: 700px;
   }
     .list > div {
-        font-size:30px;
+        font-size:50px;
     }
     #add {
     width: 150px;
-    height: 70px;
-    font-size: 30px;
+    height: 100px;
+    font-size: 50px;
 }
 }
