@@ -229,4 +229,7 @@ img[alt="icon"],#deleteIcon,#crossIcon{
     .top p:first-child{
         font-size:120px;
     }
+    .communicationInfo p{
+        font-size:30px;
+    }
 }
