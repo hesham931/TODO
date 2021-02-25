@@ -222,4 +222,7 @@ img[alt="icon"],#deleteIcon,#crossIcon{
     #deleteIcon{
    font-size: 40px;
 }
+    .text{
+        font-size:30px
+    }
 }
