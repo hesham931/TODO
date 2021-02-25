@@ -219,4 +219,7 @@ img[alt="icon"],#deleteIcon,#crossIcon{
     .optionsOnList span{
    font-size: 25px;
 }
+    #deleteIcon{
+   font-size: 40px;
+}
 }
