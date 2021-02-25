@@ -1,0 +1,193 @@
+ *{
+    margin:0%;
+    padding:0px;
+    text-transform: capitalize;
+    font-family: 'Stick', sans-serif;
+ }
+ body{
+     background-color: rgb(1, 4, 32);
+ }
+ /************************************************/
+ /*light mood*/
+ .light .header{
+    background-image: url('bg-desktop-light.jpg');
+ }
+ .light .header .inputBar #inputBar{
+    background-color: white;
+    color:hsl(235, 21%, 11%);
+}
+.light .list{
+    background-color: white;
+    color:hsl(235, 21%, 11%);
+    box-shadow: 0 4px 8px 0 rgb(0 0 0 / 60%), 0 6px 20px 0 rgb(0 0 0 / 59%);
+ }
+ .light hr{
+    background-color: black;
+ }
+ .light .communicationInfo{
+   color:rgb(56, 54, 54)
+}
+ /************************************************/
+ .header{
+    width: 100%;
+    height:500px;
+    background-attachment: fixed;
+    background-size: 100% 100%;
+ }
+ .dark .header{
+    background-image: url("bg-desktop-dark.jpg");
+ }
+ .top{
+    text-align: center;
+    padding-top:100px
+ }
+ .top p{
+    display: inline;
+    color:white
+ }
+ .top p:first-child{
+    font-size: 60px;
+    margin-right:300px
+ }
+ #inputBar {
+    width: 300px;
+    height: 50px;
+    font-family: 'Nunito', sans-serif;
+    font-size: 18px;
+    text-indent: 15px;
+    border: none;
+}
+.dark .header .inputBar #inputBar{
+    background-color: hsl(235, 21%, 11%);
+    color:white;
+}
+.inputBar {
+    width: 410px;
+    margin: auto;
+    padding-top: 100px;
+    height: 50px;
+}
+img[alt="icon"],#deleteIcon,#crossIcon{
+    cursor: pointer;
+}
+#add {
+    font-family: 'Nunito', sans-serif;
+    width: 100px;
+    height: 50px;
+    border-radius: 25px;
+    font-size: 20px;
+    background-color: hsl(165, 100%, 9%);
+    border: none;
+    color: white
+}
+#add:hover{
+    animation-name: darkButton;
+    animation-duration: 2s;
+    animation-delay: 0s;
+    animation-iteration-count: 1;
+    animation-fill-mode: forwards;
+}
+.addRemoveAnimation{
+    animation-name: removeStyle;
+    animation-duration: 2s;
+    animation-delay: 0s;
+    animation-iteration-count: 1;
+    animation-fill-mode: forwards;
+}
+@keyframes darkButton{
+    0%{ 
+        border: white;
+        background-color: hsl(235, 21%, 11%);
+        color: white;
+        opacity: 0.5;
+    }
+    100%{ 
+        border:solid hsl(165, 100%, 9%) 5px;
+        background-color: rgb(238, 235, 235);
+        color: hsl(165, 100%, 9%);
+        opacity: 1;
+    }
+}
+@keyframes removeStyle{
+    0%{ 
+        border: solid hsl(165, 100%, 9%) 5px;
+        background-color: rgb(238, 235, 235);
+        color: hsl(165, 100%, 9%);
+        opacity: 0.5;
+    }
+    100%{ 
+        border:none;
+        background-color: hsl(165, 100%, 9%);
+        color: white;
+        opacity: 1;
+    }
+}
+.list{
+    width: 410px;
+    margin: auto;
+    position: relative;
+    top: -50px;
+    border-radius: 5px;
+    padding: 20px;
+    z-index: 300;
+ }
+ .list > div{
+    margin-bottom: 50px;
+ }
+ .visibility{
+    visibility: hidden;
+ }
+ .dark .list{
+    background-color: hsl(235, 21%, 11%);
+    color:white;
+    box-shadow: 0 4px 8px 0 rgb(131, 130, 130), 0 6px 20px 0 rgb(133, 131, 131);
+ }
+ .dark hr{
+    background-color: white;
+ }
+ .text{
+    margin-left:20px;
+    font-size: 20px;
+ }
+ #deleteIcon{
+    float:right;
+    font-size: 30px;
+ }
+ .display{
+    display: none;
+ }
+ .infoAboutList > div{
+    display: inline;
+    margin:20px;
+ }
+ .infoAboutList > div > span:hover{
+   position: relative;
+   top:-10px
+}
+.clearCompleted:hover{
+   position: relative;
+   top:10px
+}
+/*color:rgb(1, 48, 136)*/
+ .optionsOnList span{
+    margin:3px;
+    cursor: pointer;
+ }
+ .clearCompleted {
+   margin: 100px !important;
+   position: relative;
+   top: 30px;
+   cursor: pointer;
+}
+.click{
+    border: solid 2px;
+    border-radius: 10px;
+    padding: 5px;
+}
+.communicationInfo{
+   text-align: center;
+   margin-top:50px
+}
+.dark .communicationInfo{
+   color:white
+}
