@@ -203,17 +203,17 @@ img[alt="icon"],#deleteIcon,#crossIcon{
   #inputBar {
    width: 600px;
    height: 100px;
-      font-size:50px;
+      font-size:40px;
   }
   .list{
    width: 700px;
   }
     .list > div {
-        font-size:50px;
+        font-size:40px;
     }
     #add {
     width: 150px;
     height: 100px;
-    font-size: 50px;
+    font-size: 40px;
 }
 }
