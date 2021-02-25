@@ -226,4 +226,7 @@ img[alt="icon"],#deleteIcon,#crossIcon{
     .text{
         font-size:40px
     }
+    .top p:first-child{
+        font-size:50px;
+    }
 }
