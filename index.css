@@ -191,3 +191,19 @@ img[alt="icon"],#deleteIcon,#crossIcon{
 .dark .communicationInfo{
    color:white
 }
+@media screen and (max-width:991px){
+   .header{
+      height:900px
+   }
+   .inputBar {
+      width: 500px;
+      height: 70px;
+  }
+  #inputBar {
+   width: 300px;
+   height: 70px
+  }
+  .list{
+   width: 500px
+}
+}
