@@ -7,7 +7,7 @@ var moodIcon = document.getElementById("sun"),
     list = document.getElementsByClassName("list")[0],
     printNumberOfItems = document.getElementsByClassName("numberOfItem")[0];
 moodIcon.onclick = function(){
-    if(moodIcon.src == "file:///C:/Users/User/Desktop/projects/icon-sun.svg"){
+    if(moodIcon.src == "icon-sun.svg"){
         moodIcon.src = "icon-moon.svg";
         document.querySelector("span").className="light";
         document.querySelector("body").style = "background-color: rgb(231, 224, 224)";
