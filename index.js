@@ -5,19 +5,22 @@ var moodIcon = document.getElementById("sun"),
     itemCount = 0,
     counter = 0,
     list = document.getElementsByClassName("list")[0],
-    printNumberOfItems = document.getElementsByClassName("numberOfItem")[0];
+    printNumberOfItems = document.getElementsByClassName("numberOfItem")[0],
+    mood = "dark";
 moodIcon.onclick = function(){
-    if(moodIcon.src == "https://trusting-galileo-1c552d.netlify.app/icon-sun.svg"){
+    if(mood === "dark"){
         moodIcon.src = "icon-moon.svg";
         document.querySelector("span").className="light";
         document.querySelector("body").style = "background-color: rgb(231, 224, 224)";
         document.getElementById("changeMood").innerHTML="click to dark mood";
+        mood = "light";
     }
     else{
         moodIcon.src = "icon-sun.svg";
         document.querySelector("span").className="dark";
         document.querySelector("body").style = "background-color: rgb(1, 4, 32)";
         document.getElementById("changeMood").innerHTML="click to light mood";
+        mood = "dark";
     }
 }
 window.onload = function(){
